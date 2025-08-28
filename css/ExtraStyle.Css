@@ -1,0 +1,151 @@
+﻿
+/* Accordion */
+.accordionHeader
+{
+    border: 1px solid #2F4F4F;
+    color: white;
+    background-color: #333333;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.accordionHeader a
+{
+	color: #FFFFFF;
+	background: none;
+	text-decoration: none;
+}
+.accordionHeader a:hover
+{
+	background: none;
+	text-decoration: underline;
+}
+.accordionHeaderSelected
+{
+    border: 1px solid #2F4F4F;
+    color: white;
+    background-color: #990000;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+    padding: 5px;
+    /*margin-top: 5px;*/
+    cursor: pointer;
+}
+
+.accordionHeaderSelected a
+{
+	color: #FFFFFF;
+	background: none;
+	text-decoration: none;
+}
+
+.accordionHeaderSelected a:hover
+{
+	background: none;
+	text-decoration: underline;
+}
+.accordionHeaderD
+{
+	border: 1px solid #2F4F4F;
+	color: white;
+	background-color: #BF0000;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+.accordionHeaderD a
+{
+	color: #FFFFFF;
+	background: none;
+	text-decoration: none;
+}
+.accordionHeaderD a:hover
+{
+	background: none;
+	text-decoration: underline;
+}
+.accordionHeaderSelectedD
+{
+	border: 1px solid #2F4F4F;
+	color: white;
+	background-color: #3E0000;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0px; /*margin-top: 5px;*/
+	cursor: pointer;
+}
+
+.accordionHeaderSelectedD a
+{
+	color: #FFFFFF;
+	background: none;
+	text-decoration: none;
+}
+
+.accordionHeaderSelectedD a:hover
+{
+	background: none;
+	text-decoration: underline;
+}
+.accordionContent
+{
+	background-color: #e2e2e2;
+	border: 1px dashed #2F4F4F;
+	width: 99.5%;
+}
+.accordionContentBottom
+{
+	clear :both ;
+    border: 1px solid #2F4F4F;
+    color: white;
+    background-color: #5078B3;
+}
+
+.accordionContentFooter {
+	clear: both;
+}
+
+.accordionContentList Li
+{
+	display: inline;
+	float: left;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	text-align: left;
+	padding-top: 2px;
+}
+.accordionContentList P
+{
+	clear :both ;
+}
+
+.accordionContentListBox
+{
+	overflow :hidden ; width :150px; height :20px; display: inline; float: left;
+}
+
+.accordionContentList
+{
+	font-size: 11px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+	text-decoration : none;
+}
+.accordionContentList a:hover
+{
+	font-weight: bold;
+}
+
+.accordionContentList img
+{
+	 border : 0;
+}

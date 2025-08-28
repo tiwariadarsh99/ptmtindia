@@ -1,0 +1,265 @@
+html, body, ul, li, h1, h2, h3, h4 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+h1 img {
+	display: block;
+}
+img {
+	border: 0;
+}
+a {
+	color: #333;
+	font-size:14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: #f00;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.more {
+	text-align: right;
+}
+.clear {
+	clear: both;
+}
+body {
+	background: #eee;
+	font-size:87.5%;
+	line-height:1.4;
+	text-align:left;
+
+
+}
+#outer {
+	background: top center url(images/header_bg.jpg) repeat-x;
+}
+#wrapper {
+	text-align: left;
+	margin: auto;
+	width: 1000px;
+}
+
+#header {
+	background: top left url(images/jmd-logo.png) no-repeat;
+	margin-top:5px;
+	height: 78px;
+}
+#header h1 {
+	font-family:Calibri;
+	color: #890000;
+	font-weight:bold;
+	font-weight: normal;
+	font-size: 25px;
+	padding: 20px 0 0 90px;
+	margin: 0;
+}
+#header p {
+	color: #333333;
+	padding: 0 0 10px 0px;
+	width:50px;
+	font-weight:bold;
+	margin: 0 0 0 315px;
+}
+#nav {
+	background: url(images/header_c_bg.gif) repeat-x;
+	position: relative;
+	height: 370px;
+}
+#nav a {
+	color: #fff;
+	text-decoration: none;
+}
+#nav a:hover {
+	color: #FF0000;
+	text-decoration: none;
+}
+#nav ul {
+	padding: 50px 0 0 430px;
+	margin: 0;
+	position: relative;
+	z-index: 1;
+}
+#nav li {
+	background: left center url(images/bullet.gif) no-repeat;
+	padding: 8px 0 8px 30px;
+	margin: 0;
+}
+#nav li#m1 { margin-left: 19px; }
+#nav li#m2 { margin-left: 11px; }
+#nav li#m3 { margin-left: 3px; }
+#nav li#m4 { margin-left: 0px;  }	
+#nav li#m3 { margin-left: 3px; }
+#nav li#m6 { margin-left: 8px; }
+
+
+#nav a {
+	font-weight: normal;
+}
+
+#head {
+	/*background: url(images/header.jpg) no-repeat;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 400px;
+	height: 370px;
+}
+
+#head-pip {
+	background: url(images/header_pip.jpg) no-repeat;
+	position: absolute;
+	top: 0;
+	left: 430px;
+	width: 48px;
+	height: 94px;			
+}
+
+#body {
+	box-shadow: 1px 5px 5px 1px #888;
+	position: relative;
+	left: 0px;
+	width: 1000px;
+}
+#body-inner {
+	background-color:#D2D0D0;
+	padding: 28px 23px 28px 31px;
+}
+#body-left {
+	float: left;
+	width: 381px;
+}
+
+
+#body-right1 {
+	width: auto;
+	padding:0px;
+	margin:0px;
+}
+
+
+#body-right {
+	margin:0px;
+	padding:0px;
+	float: right;
+	width: 540px;
+}
+#topic-pic {
+	background: #666;
+	padding: 10px;
+}
+#body-left h2 {
+	background: #f00;
+	font-size: 18px;
+	color: #fff;
+	margin-top: 0px;
+	margin-right: 0;
+	margin-bottom: 0px;
+	margin-left: 0;
+	padding-top: 6px;
+	padding-right: 23px;
+	padding-bottom: 6px;
+	padding-left: 23px;
+}
+#body-left ul {
+	margin-top: 20px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	margin-left: 30px;
+}
+#body-left li {
+	margin: 5px;
+}
+#body-left p {
+	margin: 0px;
+	padding-top: 8px;
+	padding-right: 10px;
+	padding-bottom: 8px;
+	padding-left: 10px;
+}
+
+
+
+
+
+
+
+#body-right .box {
+	padding: 15px;
+	background: #fff;
+	border: 1px solid #999;
+	margin: 3em 0;
+}
+ h2 {
+	font: 18px "arial narrow", arial, sans-serif;
+}
+#body-right .box p {
+	margin: 0 0 1em 0;
+}
+#body-right .box .left {
+	margin-right: 15px;
+	border: 1px solid #999;
+}
+#body-right .box .btns {
+	width:150px;
+	float: right;
+	padding-top: 10px;
+	position: relative;
+	clear:both;
+}
+.btns a {
+	background: left #CC0000 url(images/btn.gif) repeat-y;
+	border: 2px solid #E68282;
+	border-color: #E68282 #650000 #650000 #9C2828;
+	color: #fff;
+	font-weight: normal;
+	padding: 3px 15px 3px 20px;
+	position: relative;
+}
+.btns a:hover {
+	background-color: #EF1818;
+	color: #fff;
+}
+
+#copyright {
+	background: top left url(images/footer_bg.gif) repeat-x;
+	float: right;
+	width: 425px;
+	clear: both;
+	margin-right: 9px;
+	margin-right: 5px;
+}
+
+#copyright-left {
+	background: top left url(images/footer_left.gif) no-repeat;
+	padding: 27px 30px;
+	font-size: 11px;
+	text-align: center;
+}
+
+
+.heading3 {
+	background-color:#FF0000;
+	color:#FFFFFF;
+	font-family:Calibri;
+	font-size:18px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+}
+
+#body-inner ul li a{
+	display:block;
+	padding-top: 8px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	padding-left: 15px;
+}
